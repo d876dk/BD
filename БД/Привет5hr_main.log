@@ -1,0 +1,378 @@
+
+Error starting at line : 86 in command -
+DROP USER hr CASCADE
+Error report -
+ORA-01918: пользователь 'HR' не существует
+01918. 00000 -  "user '%s' does not exist"
+*Cause:    User does not exist in the system.
+*Action:   Verify the user name is correct.
+
+User HR created.
+
+
+Error starting at line : 97 in command -
+ALTER USER hr DEFAULT TABLESPACE &tbs
+              QUOTA UNLIMITED ON &tbs
+Error report -
+ORA-00959: раздел 'ПРИВЕТ2' не существует
+00959. 00000 -  "tablespace '%s' does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 100 in command -
+ALTER USER hr TEMPORARY TABLESPACE &ttbs
+Error report -
+ORA-00959: раздел 'ПРИВЕТ3' не существует
+00959. 00000 -  "tablespace '%s' does not exist"
+*Cause:    
+*Action:
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+Error starting at line : 109 in command -
+  connect ...
+Error report -
+Connection Failed
+  USER          = sys
+  URL           = jdbc:oracle:thin:@Привет6
+  Error Message = Ошибка ввода/вывода: Invalid connection string format, a valid format is: "host:port:sid"  (CONNECTION_ID=AZDDXaN3R1KmlNPkpgKefw==)
+  USER          = sys
+  URL           = jdbc:oracle:thin:@Привет6:1521/Привет6
+  Error Message = Ошибка ввода/вывода: Invalid connection string format, a valid format is: "host:port:sid"  (CONNECTION_ID=ql06E0T3TSGb/sNBHLCpbA==)
+Commit
+SP2-0640: Not connected
+Error starting at line : 116 in command -
+  connect ...
+Error report -
+Connection Failed
+  USER          = hr
+  URL           = jdbc:oracle:thin:@Привет6
+  Error Message = Ошибка ввода/вывода: Invalid connection string format, a valid format is: "host:port:sid"  (CONNECTION_ID=yMb4ZhNPSeaH0kUQepzDcg==)
+  USER          = hr
+  URL           = jdbc:oracle:thin:@Привет6:1521/Привет6
+  Error Message = Ошибка ввода/вывода: Invalid connection string format, a valid format is: "host:port:sid"  (CONNECTION_ID=ZjTjYEn9QCmhIY/RsmcM6A==)
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Creating REGIONS table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Creating COUNTRIES table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Creating LOCATIONS table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Creating DEPARTMENTS table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Creating JOBS table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Creating EMPLOYEES table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Creating JOB_HISTORY table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Creating EMP_DETAILS_VIEW view ...
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Populating REGIONS table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Populating COUNTIRES table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Populating LOCATIONS table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Populating DEPARTMENTS table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Populating JOBS table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Populating EMPLOYEES table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+******  Populating JOB_HISTORY table ....
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0640: Not connected
+SP2-0641: "EXECUTE" requires connection to server
